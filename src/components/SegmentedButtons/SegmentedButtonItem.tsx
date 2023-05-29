@@ -18,7 +18,6 @@ import Icon from '../Icon';
 import TouchableRipple from '../TouchableRipple/TouchableRipple';
 import Text from '../Typography/Text';
 import {
-  getSegmentedButtonBorderRadius,
   getSegmentedButtonColors,
   getSegmentedButtonDensityPadding,
 } from './utils';
@@ -99,7 +98,6 @@ const SegmentedButtonItem = ({
   testID,
   label,
   onPress,
-  segment,
   density = 'regular',
   theme: themeOverrides,
 }: Props) => {
