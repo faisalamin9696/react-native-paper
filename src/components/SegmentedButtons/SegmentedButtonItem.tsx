@@ -135,10 +135,10 @@ const SegmentedButtonItem = ({
     });
 
   const borderRadius = (isV3 ? 5 : 1) * roundness;
-  const segmentBorderRadius = getSegmentedButtonBorderRadius({
-    theme,
-    segment,
-  });
+  // const segmentBorderRadius = getSegmentedButtonBorderRadius({
+  //   theme,
+  //   segment,
+  // });
   const rippleColor = color(textColor).alpha(0.12).rgb().string();
 
   const showIcon = !icon ? false : label && checked ? !showSelectedCheck : true;
