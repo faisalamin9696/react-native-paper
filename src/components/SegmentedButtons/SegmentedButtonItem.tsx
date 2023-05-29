@@ -164,7 +164,6 @@ const SegmentedButtonItem = ({
     borderColor,
     borderWidth,
     borderRadius,
-    ...segmentBorderRadius,
   };
   const paddingVertical = getSegmentedButtonDensityPadding({ density });
   const rippleStyle: ViewStyle = {
