@@ -3,7 +3,6 @@ import {
   GestureResponderEvent,
   StyleProp,
   StyleSheet,
-  View,
   ViewStyle,
 } from 'react-native';
 

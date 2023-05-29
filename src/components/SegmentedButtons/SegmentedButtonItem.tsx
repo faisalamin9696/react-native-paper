@@ -168,7 +168,7 @@ const SegmentedButtonItem = ({
   const paddingVertical = getSegmentedButtonDensityPadding({ density });
   const rippleStyle: ViewStyle = {
     borderRadius,
-    ...segmentBorderRadius,
+    // ...segmentBorderRadius,
   };
   const labelTextStyle: TextStyle = {
     ...(!isV3
@@ -179,7 +179,7 @@ const SegmentedButtonItem = ({
       }
       : theme.fonts.labelLarge),
     color: textColor,
-    fontSize: 12
+    fontSize: 10
 
   };
 
